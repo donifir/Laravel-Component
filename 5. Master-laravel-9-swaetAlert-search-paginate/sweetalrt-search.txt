@@ -1,0 +1,22 @@
+sweet-alert : https://realrashid.github.io/sweet-alert/
+
+instalation
+confiq
+	@include('sweetalert::alert')
+	php artisan sweetalert:publish
+midleware
+	\RealRashid\SweetAlert\ToSweetAlert::class,
+	->with('success', 'Task Created Successfully!');
+
+
+baruu 
+https://codelapan.com/post/cara-menggunakan-sweet-alert-di-laravel-8
+
+search
+https://www.techjblog.com/index.php/2020/10/laravel-tutorial-8-search/
+
+midleware
+https://medium.com/geekculture/laravel-v8-authentication-for-user-and-admin-using-middleware-f14171aa4efa
+
+cara remove remote origin github 
+https://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists
